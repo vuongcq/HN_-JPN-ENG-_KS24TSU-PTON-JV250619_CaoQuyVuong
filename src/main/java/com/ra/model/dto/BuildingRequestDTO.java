@@ -27,7 +27,7 @@ public class BuildingRequestDTO {
     @NotNull(message = "Dien tich xay dung khong duoc de trong")
     private Double buildingArea;
 
-    @NotBlank(message = "Don vi dien tich xay dung khong duoc de trong")
+    @NotBlank(message = "Don vi dien tich xay dung khong duoc de trong, phai theo dinh dang yyyy-MM-đ")
     @Size(max = 10)
     private String areaUnit;
 
