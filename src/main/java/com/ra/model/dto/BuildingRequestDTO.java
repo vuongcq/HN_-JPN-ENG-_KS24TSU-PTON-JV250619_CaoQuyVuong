@@ -36,7 +36,6 @@ public class BuildingRequestDTO {
     private Date startDate;
 
     @NotNull(message = "thoi gian xay dung khong duoc de trong")
-    @Size(max = 10)
     private int time;
 
     @NotBlank(message = "Don vi tinh thoi gian xay dung khong duoc de trong")
@@ -44,7 +43,6 @@ public class BuildingRequestDTO {
     private String timeUnit;
 
     @NotNull(message = "Duong dan den hinh anh khong duoc de trong")
-    @Size(max = 255)
     private MultipartFile design;
 
     @NotBlank(message = "Noi dung xay dung khong duoc de trong")
